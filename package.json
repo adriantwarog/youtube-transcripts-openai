@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "dependencies": {
+    "youtube-captions-scraper-x": "^1.1.1",
+    "youtube-transcript": "^1.0.6"
+  }
+}

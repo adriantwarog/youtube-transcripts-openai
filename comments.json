@@ -1,0 +1,1421 @@
+[{
+	"text": "do you feel stuck in your layout skills",
+	"duration": 5880,
+	"offset": 120
+}, {
+	"text": "in this video we will cover 9 Advanced",
+	"duration": 6060,
+	"offset": 2700
+}, {
+	"text": "tips of layout and composition that if",
+	"duration": 5040,
+	"offset": 6000
+}, {
+	"text": "you put them into practice they will",
+	"duration": 4200,
+	"offset": 8760
+}, {
+	"text": "inevitably help you take your web",
+	"duration": 5280,
+	"offset": 11040
+}, {
+	"text": "designs to the next level let's go",
+	"duration": 9060,
+	"offset": 12960
+}, {
+	"text": "[Music]",
+	"duration": 7980,
+	"offset": 16320
+}, {
+	"text": "hello my friends if you're new to this",
+	"duration": 3780,
+	"offset": 22020
+}, {
+	"text": "Channel and you want to stay up to date",
+	"duration": 3899,
+	"offset": 24300
+}, {
+	"text": "with my latest videos covering Advanced",
+	"duration": 4920,
+	"offset": 25800
+}, {
+	"text": "web design in freelance skills remember",
+	"duration": 5001,
+	"offset": 28199
+}, {
+	"text": "to subscribe and enable notifications",
+	"duration": 6240,
+	"offset": 30720
+}, {
+	"text": "okay let's jump straight to it so the",
+	"duration": 6460,
+	"offset": 33200
+}, {
+	"text": "first three right come from the seven",
+	"duration": 5640,
+	"offset": 36960
+}, {
+	"text": "laws of good web design and it's a video",
+	"duration": 6600,
+	"offset": 39660
+}, {
+	"text": "that you can check here so number one",
+	"duration": 7619,
+	"offset": 42600
+}, {
+	"text": "make meaningful decisions now if you're",
+	"duration": 7380,
+	"offset": 46260
+}, {
+	"text": "a junior you will probably say ah what a",
+	"duration": 5881,
+	"offset": 50219
+}, {
+	"text": "waste of time let's get into figma right",
+	"duration": 5099,
+	"offset": 53640
+}, {
+	"text": "now that's totally normal when you're",
+	"duration": 5820,
+	"offset": 56100
+}, {
+	"text": "studying out but let me be super upfront",
+	"duration": 5640,
+	"offset": 58739
+}, {
+	"text": "with you that thinking will keep you",
+	"duration": 5100,
+	"offset": 61920
+}, {
+	"text": "stuck in the cookie cutter type of",
+	"duration": 5941,
+	"offset": 64378
+}, {
+	"text": "websites so the bottom line is that",
+	"duration": 7380,
+	"offset": 67020
+}, {
+	"text": "content comes first remember we're not",
+	"duration": 7100,
+	"offset": 70320
+}, {
+	"text": "in the Cosmetic business we're designers",
+	"duration": 6120,
+	"offset": 74400
+}, {
+	"text": "every visual element you introduce",
+	"duration": 7000,
+	"offset": 77420
+}, {
+	"text": "should have a meaning no space for looks",
+	"duration": 7919,
+	"offset": 80520
+}, {
+	"text": "cool or it's trendy ask yourself why am",
+	"duration": 6120,
+	"offset": 84420
+}, {
+	"text": "I using this element if it's because",
+	"duration": 4801,
+	"offset": 88439
+}, {
+	"text": "it's trendy or or because it's cool then",
+	"duration": 4860,
+	"offset": 90540
+}, {
+	"text": "you should fix it you should either",
+	"duration": 4379,
+	"offset": 93240
+}, {
+	"text": "remove it or you should give a meaning",
+	"duration": 6679,
+	"offset": 95400
+}, {
+	"text": "to it let me share an example with you",
+	"duration": 4460,
+	"offset": 97619
+}, {
+	"text": "so this design right",
+	"duration": 7579,
+	"offset": 102360
+}, {
+	"text": "you hover it breaks the typography",
+	"duration": 4699,
+	"offset": 105240
+}, {
+	"text": "you see the trailer and then you close",
+	"duration": 4500,
+	"offset": 110460
+}, {
+	"text": "it and come back to the hero right how",
+	"duration": 5579,
+	"offset": 112320
+}, {
+	"text": "did I come up with that design well the",
+	"duration": 5580,
+	"offset": 114960
+}, {
+	"text": "idea came from the content so the",
+	"duration": 5040,
+	"offset": 117899
+}, {
+	"text": "thought process was I have this design",
+	"duration": 5880,
+	"offset": 120540
+}, {
+	"text": "right how can I give meaning to this so",
+	"duration": 5701,
+	"offset": 122939
+}, {
+	"text": "that it's not like a cookie cutter type",
+	"duration": 3660,
+	"offset": 126420
+}, {
+	"text": "of design",
+	"duration": 4200,
+	"offset": 128640
+}, {
+	"text": "granted there's an edge to the layout",
+	"duration": 4739,
+	"offset": 130080
+}, {
+	"text": "right there it's not the typical layout",
+	"duration": 5100,
+	"offset": 132840
+}, {
+	"text": "but that's not enough to make something",
+	"duration": 6301,
+	"offset": 134819
+}, {
+	"text": "that is tailor made for a client so the",
+	"duration": 6780,
+	"offset": 137940
+}, {
+	"text": "idea of the the typography cut out like",
+	"duration": 6180,
+	"offset": 141120
+}, {
+	"text": "this came from this is a boxing Series",
+	"duration": 5700,
+	"offset": 144720
+}, {
+	"text": "right and so I imagined like what would",
+	"duration": 6120,
+	"offset": 147300
+}, {
+	"text": "happen if I would punch the title in the",
+	"duration": 5580,
+	"offset": 150420
+}, {
+	"text": "middle well probably if it's like for",
+	"duration": 4800,
+	"offset": 153420
+}, {
+	"text": "example a glass it would break from The",
+	"duration": 2940,
+	"offset": 156000
+}, {
+	"text": "Middle",
+	"duration": 3239,
+	"offset": 158220
+}, {
+	"text": "and expand like this right and so I",
+	"duration": 4680,
+	"offset": 158940
+}, {
+	"text": "thought okay let's do that with the",
+	"duration": 5521,
+	"offset": 161459
+}, {
+	"text": "hover state of the main Watch trailer",
+	"duration": 6479,
+	"offset": 163620
+}, {
+	"text": "CTA and that's where the idea came from",
+	"duration": 6119,
+	"offset": 166980
+}, {
+	"text": "so let content guide your decisions",
+	"duration": 6301,
+	"offset": 170099
+}, {
+	"text": "instead of Trends you will be way ahead",
+	"duration": 4621,
+	"offset": 173099
+}, {
+	"text": "of the Curve",
+	"duration": 5520,
+	"offset": 176400
+}, {
+	"text": "number two don't be mild there's an 80",
+	"duration": 7320,
+	"offset": 177720
+}, {
+	"text": "chance that you're being too mild with",
+	"duration": 6899,
+	"offset": 181920
+}, {
+	"text": "your decisions be bold or be super",
+	"duration": 7919,
+	"offset": 185040
+}, {
+	"text": "subtle but avoid mild decisions avoid",
+	"duration": 8461,
+	"offset": 188819
+}, {
+	"text": "gray areas in general my gut would be to",
+	"duration": 7200,
+	"offset": 192959
+}, {
+	"text": "tell you just do Bolder decisions",
+	"duration": 5280,
+	"offset": 197280
+}, {
+	"text": "to contrast two type hierarchies go",
+	"duration": 5041,
+	"offset": 200159
+}, {
+	"text": "extreme don't just do like maybe even",
+	"duration": 5399,
+	"offset": 202560
+}, {
+	"text": "double like even double would be like a",
+	"duration": 5459,
+	"offset": 205200
+}, {
+	"text": "mild decision just go extreme so this",
+	"duration": 5341,
+	"offset": 207959
+}, {
+	"text": "title for example right I didn't just",
+	"duration": 5580,
+	"offset": 210659
+}, {
+	"text": "grab the size of the paragraph for",
+	"duration": 5100,
+	"offset": 213300
+}, {
+	"text": "example and say okay let's multiply it",
+	"duration": 4981,
+	"offset": 216239
+}, {
+	"text": "by two or by three or I don't know let's",
+	"duration": 5699,
+	"offset": 218400
+}, {
+	"text": "do like the maximum here on on the scale",
+	"duration": 6659,
+	"offset": 221220
+}, {
+	"text": "right 128. no I just went like super",
+	"duration": 6661,
+	"offset": 224099
+}, {
+	"text": "extreme I said what happens if this",
+	"duration": 6121,
+	"offset": 227879
+}, {
+	"text": "title feels almost all the hero right",
+	"duration": 4920,
+	"offset": 230760
+}, {
+	"text": "and so I went super extreme because",
+	"duration": 3780,
+	"offset": 234000
+}, {
+	"text": "that's the name of the series and I",
+	"duration": 5100,
+	"offset": 235680
+}, {
+	"text": "didn't do just like a mild decision so",
+	"duration": 6959,
+	"offset": 237780
+}, {
+	"text": "this is what I mean with super extreme",
+	"duration": 6360,
+	"offset": 240780
+}, {
+	"text": "intentful decisions now on the other",
+	"duration": 4381,
+	"offset": 244739
+}, {
+	"text": "hand you could also do subtle decisions",
+	"duration": 5099,
+	"offset": 247140
+}, {
+	"text": "so for example in this website there's",
+	"duration": 7260,
+	"offset": 249120
+}, {
+	"text": "little details on White and the",
+	"duration": 7081,
+	"offset": 252239
+}, {
+	"text": "background is like an off-white so the",
+	"duration": 6420,
+	"offset": 256380
+}, {
+	"text": "details that are white are very hardly",
+	"duration": 5819,
+	"offset": 259320
+}, {
+	"text": "noticeable they are very subtle",
+	"duration": 4080,
+	"offset": 262800
+}, {
+	"text": "if you scroll down the page you will see",
+	"duration": 3661,
+	"offset": 265139
+}, {
+	"text": "more of them",
+	"duration": 5280,
+	"offset": 266880
+}, {
+	"text": "the idea is I don't want this details to",
+	"duration": 6839,
+	"offset": 268800
+}, {
+	"text": "be overbearing on the layout I just want",
+	"duration": 4920,
+	"offset": 272160
+}, {
+	"text": "them to be",
+	"duration": 4441,
+	"offset": 275639
+}, {
+	"text": "extremely on the background so very very",
+	"duration": 5940,
+	"offset": 277080
+}, {
+	"text": "subtle so that's what I mean like go",
+	"duration": 6540,
+	"offset": 280080
+}, {
+	"text": "really subtle or go really bold avoid",
+	"duration": 5700,
+	"offset": 283020
+}, {
+	"text": "this Middle Ground okay",
+	"duration": 6299,
+	"offset": 286620
+}, {
+	"text": "number three create depth one of the",
+	"duration": 6539,
+	"offset": 288720
+}, {
+	"text": "seven laws of good web design is that",
+	"duration": 5041,
+	"offset": 292919
+}, {
+	"text": "it's natural so this means that it",
+	"duration": 5160,
+	"offset": 295259
+}, {
+	"text": "mimics real life and in real life",
+	"duration": 5700,
+	"offset": 297960
+}, {
+	"text": "there's hierarchy by depth now there's",
+	"duration": 4981,
+	"offset": 300419
+}, {
+	"text": "things in the foreground that are the",
+	"duration": 3900,
+	"offset": 303660
+}, {
+	"text": "ones that we pay attention to right in",
+	"duration": 4799,
+	"offset": 305400
+}, {
+	"text": "this Frame I am in the foreground right",
+	"duration": 5220,
+	"offset": 307560
+}, {
+	"text": "and you're paying attention to me and",
+	"duration": 4681,
+	"offset": 310199
+}, {
+	"text": "there's things in the background that we",
+	"duration": 3900,
+	"offset": 312780
+}, {
+	"text": "don't pay attention that much attention",
+	"duration": 4080,
+	"offset": 314880
+}, {
+	"text": "to like the things here right little",
+	"duration": 5700,
+	"offset": 316680
+}, {
+	"text": "books the sleeves the lamp the couch",
+	"duration": 5579,
+	"offset": 318960
+}, {
+	"text": "right things in the background you're",
+	"duration": 4319,
+	"offset": 322380
+}, {
+	"text": "not paying attention to them but they",
+	"duration": 4621,
+	"offset": 324539
+}, {
+	"text": "are there and they create this depth",
+	"duration": 6541,
+	"offset": 326699
+}, {
+	"text": "now in your designs Mark three distinct",
+	"duration": 7319,
+	"offset": 329160
+}, {
+	"text": "levels of hierarchy what's primary looks",
+	"duration": 6299,
+	"offset": 333240
+}, {
+	"text": "closer what secondary looks further away",
+	"duration": 6361,
+	"offset": 336479
+}, {
+	"text": "and what's tertiary looks far away okay",
+	"duration": 6841,
+	"offset": 339539
+}, {
+	"text": "so let me show you again an example and",
+	"duration": 5940,
+	"offset": 342840
+}, {
+	"text": "by the way shout out to off type for",
+	"duration": 4319,
+	"offset": 346380
+}, {
+	"text": "providing me with this beautiful",
+	"duration": 5160,
+	"offset": 348780
+}, {
+	"text": "Rhapsody typeface for me and for the",
+	"duration": 5581,
+	"offset": 350699
+}, {
+	"text": "bone club members so thank you in this",
+	"duration": 4680,
+	"offset": 353940
+}, {
+	"text": "example right there's",
+	"duration": 4859,
+	"offset": 356280
+}, {
+	"text": "something on the foreground which is the",
+	"duration": 5040,
+	"offset": 358620
+}, {
+	"text": "title right man trackers that's what",
+	"duration": 5041,
+	"offset": 361139
+}, {
+	"text": "you're paying attention to now secondary",
+	"duration": 5580,
+	"offset": 363660
+}, {
+	"text": "to that there's an image and the image",
+	"duration": 6359,
+	"offset": 366180
+}, {
+	"text": "is very related to the content right we",
+	"duration": 6660,
+	"offset": 369240
+}, {
+	"text": "want users to connect the title with the",
+	"duration": 5461,
+	"offset": 372539
+}, {
+	"text": "image and those two things are going to",
+	"duration": 4139,
+	"offset": 375900
+}, {
+	"text": "be the immediate scan that the users are",
+	"duration": 4500,
+	"offset": 378000
+}, {
+	"text": "going to make to understand what are",
+	"duration": 5041,
+	"offset": 380039
+}, {
+	"text": "they looking at and tertiary are for",
+	"duration": 5039,
+	"offset": 382500
+}, {
+	"text": "example the CTA right that's tertiary",
+	"duration": 5520,
+	"offset": 385080
+}, {
+	"text": "and then things like paragraphs nav",
+	"duration": 5401,
+	"offset": 387539
+}, {
+	"text": "items and stuff like that are very on",
+	"duration": 4980,
+	"offset": 390600
+}, {
+	"text": "the background right so Mark at least",
+	"duration": 5099,
+	"offset": 392940
+}, {
+	"text": "three distinct hierarchies like this",
+	"duration": 6480,
+	"offset": 395580
+}, {
+	"text": "number four reference more",
+	"duration": 7741,
+	"offset": 398039
+}, {
+	"text": "input determines output one major",
+	"duration": 6720,
+	"offset": 402060
+}, {
+	"text": "activity art directors engage in every",
+	"duration": 6960,
+	"offset": 405780
+}, {
+	"text": "day that Juniors don't is looking and",
+	"duration": 6359,
+	"offset": 408780
+}, {
+	"text": "saving references for example on",
+	"duration": 4380,
+	"offset": 412740
+}, {
+	"text": "Pinterest on dribble on big hands",
+	"duration": 6000,
+	"offset": 415139
+}, {
+	"text": "wherever I used to look at references 30",
+	"duration": 6180,
+	"offset": 417120
+}, {
+	"text": "minutes a day at least",
+	"duration": 6481,
+	"offset": 421139
+}, {
+	"text": "for years and I still do that okay so",
+	"duration": 6660,
+	"offset": 423300
+}, {
+	"text": "the idea with this is that you need to",
+	"duration": 4500,
+	"offset": 427620
+}, {
+	"text": "expand your visual catalog when you're",
+	"duration": 4980,
+	"offset": 429960
+}, {
+	"text": "starting out because you're gonna mostly",
+	"duration": 6180,
+	"offset": 432120
+}, {
+	"text": "most likely be exposed to cookie cutter",
+	"duration": 5819,
+	"offset": 434940
+}, {
+	"text": "websites right so you need to expand",
+	"duration": 4440,
+	"offset": 438300
+}, {
+	"text": "your visual catalog and to do that you",
+	"duration": 4741,
+	"offset": 440759
+}, {
+	"text": "need to look for references okay Paul",
+	"duration": 5880,
+	"offset": 442740
+}, {
+	"text": "Rand said don't try to be original just",
+	"duration": 6419,
+	"offset": 445500
+}, {
+	"text": "try to be good so reference more right",
+	"duration": 6240,
+	"offset": 448620
+}, {
+	"text": "don't be afraid to copy things not just",
+	"duration": 6961,
+	"offset": 451919
+}, {
+	"text": "still right exactly the same designs or",
+	"duration": 6239,
+	"offset": 454860
+}, {
+	"text": "design ideas right and don't you know",
+	"duration": 3840,
+	"offset": 458880
+}, {
+	"text": "replicate them if you're replicating",
+	"duration": 4621,
+	"offset": 461099
+}, {
+	"text": "them just do them for an exercise and",
+	"duration": 6120,
+	"offset": 462720
+}, {
+	"text": "it's by the way a great exercise but",
+	"duration": 4080,
+	"offset": 465720
+}, {
+	"text": "um",
+	"duration": 4160,
+	"offset": 468840
+}, {
+	"text": "take take ideas from you know several",
+	"duration": 6299,
+	"offset": 469800
+}, {
+	"text": "designs at the same time right so that",
+	"duration": 4539,
+	"offset": 473000
+}, {
+	"text": "combined you're doing something",
+	"duration": 3901,
+	"offset": 476099
+}, {
+	"text": "different and nobody knows like oh this",
+	"duration": 4681,
+	"offset": 477539
+}, {
+	"text": "is exactly like this other design right",
+	"duration": 5039,
+	"offset": 480000
+}, {
+	"text": "I committed that error and you know I",
+	"duration": 4640,
+	"offset": 482220
+}, {
+	"text": "can tell you there's gonna be police",
+	"duration": 5401,
+	"offset": 485039
+}, {
+	"text": "designers out there saying oh uh isn't",
+	"duration": 6820,
+	"offset": 486860
+}, {
+	"text": "this the same of so just don't don't be",
+	"duration": 5039,
+	"offset": 490440
+}, {
+	"text": "too obvious right but at the same time",
+	"duration": 4620,
+	"offset": 493680
+}, {
+	"text": "don't be afraid to reference others",
+	"duration": 5220,
+	"offset": 495479
+}, {
+	"text": "because we learn by referencing others",
+	"duration": 4860,
+	"offset": 498300
+}, {
+	"text": "so let me show you my Pinterest right so",
+	"duration": 4680,
+	"offset": 500699
+}, {
+	"text": "for example if you take a look at the",
+	"duration": 4740,
+	"offset": 503160
+}, {
+	"text": "public boards you will see that for",
+	"duration": 4320,
+	"offset": 505379
+}, {
+	"text": "example web design I have",
+	"duration": 6120,
+	"offset": 507900
+}, {
+	"text": "1 600 pins right this is a combination",
+	"duration": 6061,
+	"offset": 509699
+}, {
+	"text": "of things that have been pinning along",
+	"duration": 4319,
+	"offset": 514020
+}, {
+	"text": "ears there's also a graphic design board",
+	"duration": 4740,
+	"offset": 515760
+}, {
+	"text": "there's also a typography board that you",
+	"duration": 4260,
+	"offset": 518339
+}, {
+	"text": "can check out if you want right but",
+	"duration": 4500,
+	"offset": 520500
+}, {
+	"text": "create your own board and start filling",
+	"duration": 6121,
+	"offset": 522599
+}, {
+	"text": "it with ideas okay number five",
+	"duration": 7920,
+	"offset": 525000
+}, {
+	"text": "show me don't tell me so an image is",
+	"duration": 6540,
+	"offset": 528720
+}, {
+	"text": "worth more than a thousand words we've",
+	"duration": 4500,
+	"offset": 532920
+}, {
+	"text": "heard this a thousand times now that's",
+	"duration": 4920,
+	"offset": 535260
+}, {
+	"text": "why users don't read a website they scan",
+	"duration": 6359,
+	"offset": 537420
+}, {
+	"text": "it okay so don't leave long paragraphs",
+	"duration": 7560,
+	"offset": 540180
+}, {
+	"text": "of text without any images icons or",
+	"duration": 6361,
+	"offset": 543779
+}, {
+	"text": "visual Clues to support them okay",
+	"duration": 5340,
+	"offset": 547740
+}, {
+	"text": "websites should be infographic and full",
+	"duration": 6300,
+	"offset": 550140
+}, {
+	"text": "of visualizations of the information at",
+	"duration": 4980,
+	"offset": 553080
+}, {
+	"text": "the very least if you have a lot of",
+	"duration": 3660,
+	"offset": 556440
+}, {
+	"text": "information try to break it up into",
+	"duration": 4200,
+	"offset": 558060
+}, {
+	"text": "different hierarchies so let me show you",
+	"duration": 5220,
+	"offset": 560100
+}, {
+	"text": "for example right the bond website",
+	"duration": 6060,
+	"offset": 562260
+}, {
+	"text": "granted you know the testimonials I",
+	"duration": 4800,
+	"offset": 565320
+}, {
+	"text": "cannot do anything about it but for",
+	"duration": 4519,
+	"offset": 568320
+}, {
+	"text": "example I could have just put here right",
+	"duration": 5159,
+	"offset": 570120
+}, {
+	"text": "the double the the online course",
+	"duration": 4421,
+	"offset": 572839
+}, {
+	"text": "includes this this and this right",
+	"duration": 4861,
+	"offset": 575279
+}, {
+	"text": "there's five stages blah blah blah but I",
+	"duration": 5940,
+	"offset": 577260
+}, {
+	"text": "included this graphic because bond is",
+	"duration": 5400,
+	"offset": 580140
+}, {
+	"text": "all about Bridging the Gap That's My",
+	"duration": 5040,
+	"offset": 583200
+}, {
+	"text": "slogan and so for example on disk and",
+	"duration": 5940,
+	"offset": 585540
+}, {
+	"text": "bond means Bridge so here I created like",
+	"duration": 5159,
+	"offset": 588240
+}, {
+	"text": "an interaction right why not create an",
+	"duration": 4380,
+	"offset": 591480
+}, {
+	"text": "interaction where I'm taking you from",
+	"duration": 5341,
+	"offset": 593399
+}, {
+	"text": "stage to stage with a car right that's",
+	"duration": 6720,
+	"offset": 595860
+}, {
+	"text": "moving as you scroll and I'm fading in",
+	"duration": 7680,
+	"offset": 598740
+}, {
+	"text": "the titles of the stages",
+	"duration": 6600,
+	"offset": 602580
+}, {
+	"text": "in a progression as you can see right",
+	"duration": 5460,
+	"offset": 606420
+}, {
+	"text": "so this is an a very easy way that you",
+	"duration": 5640,
+	"offset": 609180
+}, {
+	"text": "can just use meaning right and try to",
+	"duration": 5040,
+	"offset": 611880
+}, {
+	"text": "visualize the information not just tell",
+	"duration": 5040,
+	"offset": 614820
+}, {
+	"text": "me what it is about but just show me",
+	"duration": 5460,
+	"offset": 616920
+}, {
+	"text": "with Graphics okay",
+	"duration": 5280,
+	"offset": 619860
+}, {
+	"text": "number six use typologies of information",
+	"duration": 7380,
+	"offset": 622380
+}, {
+	"text": "so a brief is usually a very long boring",
+	"duration": 7379,
+	"offset": 625140
+}, {
+	"text": "document with lots of text",
+	"duration": 5880,
+	"offset": 629760
+}, {
+	"text": "number six use typologies of information",
+	"duration": 6361,
+	"offset": 632519
+}, {
+	"text": "so a brief is usually a boring long",
+	"duration": 6360,
+	"offset": 635640
+}, {
+	"text": "document with lost lots of text this is",
+	"duration": 6660,
+	"offset": 638880
+}, {
+	"text": "the raw data as designers our job is to",
+	"duration": 5579,
+	"offset": 642000
+}, {
+	"text": "digest the data and turn it into",
+	"duration": 4979,
+	"offset": 645540
+}, {
+	"text": "information different typologies of",
+	"duration": 5581,
+	"offset": 647579
+}, {
+	"text": "information can give you excuses to",
+	"duration": 4921,
+	"offset": 650519
+}, {
+	"text": "visualize elements and create different",
+	"duration": 4500,
+	"offset": 653160
+}, {
+	"text": "hierarchies so let me show you an",
+	"duration": 5639,
+	"offset": 655440
+}, {
+	"text": "example in this website right I got a",
+	"duration": 5760,
+	"offset": 657660
+}, {
+	"text": "very long document with full of text",
+	"duration": 4621,
+	"offset": 661079
+}, {
+	"text": "right and what I did is I broke it up",
+	"duration": 5340,
+	"offset": 663420
+}, {
+	"text": "into titles I broke it up into for",
+	"duration": 5340,
+	"offset": 665700
+}, {
+	"text": "example little stats like this with",
+	"duration": 5699,
+	"offset": 668760
+}, {
+	"text": "little badges I created some",
+	"duration": 7020,
+	"offset": 671040
+}, {
+	"text": "um you know like a molecule here with a",
+	"duration": 8641,
+	"offset": 674459
+}, {
+	"text": "stat and a sub subtitle or a label right",
+	"duration": 7920,
+	"offset": 678060
+}, {
+	"text": "to title this stat right and so for",
+	"duration": 4140,
+	"offset": 683100
+}, {
+	"text": "example I used",
+	"duration": 5419,
+	"offset": 685980
+}, {
+	"text": "I used it throughout here again right",
+	"duration": 7380,
+	"offset": 687240
+}, {
+	"text": "title stats with different hierarchies",
+	"duration": 4620,
+	"offset": 691399
+}, {
+	"text": "as well",
+	"duration": 4200,
+	"offset": 694620
+}, {
+	"text": "highlighted quotes Etc so try to",
+	"duration": 5141,
+	"offset": 696019
+}, {
+	"text": "visualize and give hierarchy to your",
+	"duration": 4920,
+	"offset": 698820
+}, {
+	"text": "content and pair it also with images",
+	"duration": 5160,
+	"offset": 701160
+}, {
+	"text": "right like this like you see on this",
+	"duration": 4500,
+	"offset": 703740
+}, {
+	"text": "website just to make sure that you're",
+	"duration": 3720,
+	"offset": 706320
+}, {
+	"text": "supporting the message and creating",
+	"duration": 4860,
+	"offset": 708240
+}, {
+	"text": "information not just spitting out data",
+	"duration": 4440,
+	"offset": 710040
+}, {
+	"text": "on your websites",
+	"duration": 2940,
+	"offset": 713100
+}, {
+	"text": "number seven",
+	"duration": 4500,
+	"offset": 714480
+}, {
+	"text": "iterate don't marry to your first",
+	"duration": 5160,
+	"offset": 716040
+}, {
+	"text": "attempt this is so common when you're",
+	"duration": 4380,
+	"offset": 718980
+}, {
+	"text": "starting out right but what I want you",
+	"duration": 4620,
+	"offset": 721200
+}, {
+	"text": "to do is duplicate your artboard and be",
+	"duration": 4979,
+	"offset": 723360
+}, {
+	"text": "make big changes so let me again show",
+	"duration": 5280,
+	"offset": 725820
+}, {
+	"text": "you another example so here right I",
+	"duration": 5581,
+	"offset": 728339
+}, {
+	"text": "started with this layout very basic very",
+	"duration": 5460,
+	"offset": 731100
+}, {
+	"text": "symmetric boring and then I started",
+	"duration": 5659,
+	"offset": 733920
+}, {
+	"text": "iterating right I created different",
+	"duration": 5459,
+	"offset": 736560
+}, {
+	"text": "dispositions of the same elements then",
+	"duration": 5981,
+	"offset": 739579
+}, {
+	"text": "here I changed the typeface and here I",
+	"duration": 6601,
+	"offset": 742019
+}, {
+	"text": "started refining and iterating on that",
+	"duration": 5700,
+	"offset": 745560
+}, {
+	"text": "particular layer and doing micro changes",
+	"duration": 5820,
+	"offset": 748620
+}, {
+	"text": "and this was the hero that I selected",
+	"duration": 6420,
+	"offset": 751260
+}, {
+	"text": "okay now it does take one attempt to",
+	"duration": 5880,
+	"offset": 754440
+}, {
+	"text": "come to this conclusions right takes",
+	"duration": 4920,
+	"offset": 757680
+}, {
+	"text": "several attempts so duplicate it so that",
+	"duration": 4920,
+	"offset": 760320
+}, {
+	"text": "you can also look back and see oh this",
+	"duration": 5039,
+	"offset": 762600
+}, {
+	"text": "idea was cool let me go back to this it",
+	"duration": 4080,
+	"offset": 765240
+}, {
+	"text": "just gives you more peace of mind to",
+	"duration": 3601,
+	"offset": 767639
+}, {
+	"text": "move forward and try Bolder things",
+	"duration": 5819,
+	"offset": 769320
+}, {
+	"text": "number eight switch alignment so not",
+	"duration": 6000,
+	"offset": 771240
+}, {
+	"text": "every element needs to be stacked",
+	"duration": 5000,
+	"offset": 775139
+}, {
+	"text": "vertically and aligned to the same edge",
+	"duration": 6180,
+	"offset": 777240
+}, {
+	"text": "mark two or three strong edges in the",
+	"duration": 5440,
+	"offset": 780139
+}, {
+	"text": "composition and switch alignments",
+	"duration": 4680,
+	"offset": 783420
+}, {
+	"text": "between those edges throughout the page",
+	"duration": 4741,
+	"offset": 785579
+}, {
+	"text": "of course the best way to achieve this",
+	"duration": 5220,
+	"offset": 788100
+}, {
+	"text": "is by using a grid let me show you what",
+	"duration": 5040,
+	"offset": 790320
+}, {
+	"text": "I mean with this on this website instead",
+	"duration": 4139,
+	"offset": 793320
+}, {
+	"text": "of just putting everything on one",
+	"duration": 5219,
+	"offset": 795360
+}, {
+	"text": "alignment or just doing left right left",
+	"duration": 6421,
+	"offset": 797459
+}, {
+	"text": "right what I did is I just created three",
+	"duration": 6301,
+	"offset": 800579
+}, {
+	"text": "edges so you can see here I just created",
+	"duration": 4259,
+	"offset": 803880
+}, {
+	"text": "three",
+	"duration": 4680,
+	"offset": 806880
+}, {
+	"text": "strong edges right with a grid and then",
+	"duration": 6000,
+	"offset": 808139
+}, {
+	"text": "what it did is I I repeated the",
+	"duration": 5640,
+	"offset": 811560
+}, {
+	"text": "alignments of everything to those edges",
+	"duration": 4981,
+	"offset": 814139
+}, {
+	"text": "or mostly everything right you can see",
+	"duration": 3900,
+	"offset": 817200
+}, {
+	"text": "that for example here there's an",
+	"duration": 3839,
+	"offset": 819120
+}, {
+	"text": "alignment to the first one and the third",
+	"duration": 5160,
+	"offset": 821100
+}, {
+	"text": "one and I didn't use the second one here",
+	"duration": 6060,
+	"offset": 822959
+}, {
+	"text": "I used again the first one and the third",
+	"duration": 6120,
+	"offset": 826260
+}, {
+	"text": "one but then here for example I used the",
+	"duration": 6241,
+	"offset": 829019
+}, {
+	"text": "second one here for example I used three",
+	"duration": 5280,
+	"offset": 832380
+}, {
+	"text": "and I'm using like different hierarchies",
+	"duration": 4800,
+	"offset": 835260
+}, {
+	"text": "like for example this one is pretty big",
+	"duration": 4320,
+	"offset": 837660
+}, {
+	"text": "and I'm using it for the second one and",
+	"duration": 4380,
+	"offset": 840060
+}, {
+	"text": "I'm not using it for the first one so",
+	"duration": 5159,
+	"offset": 841980
+}, {
+	"text": "I'm just switching up alignments really",
+	"duration": 5040,
+	"offset": 844440
+}, {
+	"text": "and this creates dynamism in the",
+	"duration": 5161,
+	"offset": 847139
+}, {
+	"text": "composition and makes it less boring",
+	"duration": 5400,
+	"offset": 849480
+}, {
+	"text": "honestly because if everything is",
+	"duration": 4680,
+	"offset": 852300
+}, {
+	"text": "aligned to the same Edge it just becomes",
+	"duration": 4320,
+	"offset": 854880
+}, {
+	"text": "boring and the visual journey is very",
+	"duration": 4099,
+	"offset": 856980
+}, {
+	"text": "dull",
+	"duration": 3960,
+	"offset": 859200
+}, {
+	"text": "number nine",
+	"duration": 6161,
+	"offset": 861079
+}, {
+	"text": "try new layouts commit to stop doing",
+	"duration": 7260,
+	"offset": 863160
+}, {
+	"text": "cookie cutter layers on each project you",
+	"duration": 6060,
+	"offset": 867240
+}, {
+	"text": "should be trying new things okay if you",
+	"duration": 5640,
+	"offset": 870420
+}, {
+	"text": "do this consistently project after",
+	"duration": 5099,
+	"offset": 873300
+}, {
+	"text": "project and you push the boundaries of",
+	"duration": 5579,
+	"offset": 876060
+}, {
+	"text": "what you can do I promise you 10 years",
+	"duration": 4981,
+	"offset": 878399
+}, {
+	"text": "from now you're not gonna be the same",
+	"duration": 4320,
+	"offset": 881639
+}, {
+	"text": "designer as you are today now if you're",
+	"duration": 4740,
+	"offset": 883380
+}, {
+	"text": "if you just keep doing the same layouts",
+	"duration": 3781,
+	"offset": 885959
+}, {
+	"text": "because that's where you're comfortable",
+	"duration": 5640,
+	"offset": 888120
+}, {
+	"text": "right then you're not gonna grow so dare",
+	"duration": 5940,
+	"offset": 889740
+}, {
+	"text": "to do new things",
+	"duration": 4500,
+	"offset": 893760
+}, {
+	"text": "amazing my friends I dare you to start",
+	"duration": 5040,
+	"offset": 895680
+}, {
+	"text": "putting these ideas into practice today",
+	"duration": 5220,
+	"offset": 898260
+}, {
+	"text": "now if you learned something give this",
+	"duration": 5340,
+	"offset": 900720
+}, {
+	"text": "video a like and remember to subscribe",
+	"duration": 5520,
+	"offset": 903480
+}, {
+	"text": "and enable notifications and speaking of",
+	"duration": 5160,
+	"offset": 906060
+}, {
+	"text": "layout and compositions I have a free",
+	"duration": 4560,
+	"offset": 909000
+}, {
+	"text": "course with five secrets to compose",
+	"duration": 4979,
+	"offset": 911220
+}, {
+	"text": "beautiful websites with a golden Canon",
+	"duration": 5160,
+	"offset": 913560
+}, {
+	"text": "grid so if you're interested make sure",
+	"duration": 5161,
+	"offset": 916199
+}, {
+	"text": "to check the link below now if you're",
+	"duration": 4919,
+	"offset": 918720
+}, {
+	"text": "finding my content valuable imagine all",
+	"duration": 4440,
+	"offset": 921360
+}, {
+	"text": "that you could learn inside my signature",
+	"duration": 5101,
+	"offset": 923639
+}, {
+	"text": "program the web design master class this",
+	"duration": 5339,
+	"offset": 925800
+}, {
+	"text": "is my mentorship program once enroll you",
+	"duration": 4740,
+	"offset": 928740
+}, {
+	"text": "will have access to the lifetime of the",
+	"duration": 4560,
+	"offset": 931139
+}, {
+	"text": "program which includes group coaching",
+	"duration": 4919,
+	"offset": 933480
+}, {
+	"text": "calls every week with me where I answer",
+	"duration": 4861,
+	"offset": 935699
+}, {
+	"text": "every question and give feedback to the",
+	"duration": 4080,
+	"offset": 938399
+}, {
+	"text": "bunk lab members and you can connect",
+	"duration": 5100,
+	"offset": 940560
+}, {
+	"text": "with other like-minded web designers who",
+	"duration": 5640,
+	"offset": 942480
+}, {
+	"text": "are in the same boat as you are with the",
+	"duration": 5520,
+	"offset": 945660
+}, {
+	"text": "same goals if you want to join then",
+	"duration": 5519,
+	"offset": 948120
+}, {
+	"text": "click the link below to apply and I will",
+	"duration": 4440,
+	"offset": 951180
+}, {
+	"text": "schedule a call with you if you're a fit",
+	"duration": 4440,
+	"offset": 953639
+}, {
+	"text": "so we can chat and decide if the program",
+	"duration": 4920,
+	"offset": 955620
+}, {
+	"text": "is the right fit for you you got this my",
+	"duration": 5461,
+	"offset": 958079
+}, {
+	"text": "friend let's bridge the gap one pixel at",
+	"duration": 5640,
+	"offset": 960540
+}, {
+	"text": "a time check out this playlist next to",
+	"duration": 5239,
+	"offset": 963540
+}, {
+	"text": "keep learning",
+	"duration": 2599,
+	"offset": 966180
+}]
