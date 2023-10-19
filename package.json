@@ -1,9 +1,24 @@
 {
-  "type": "module",
+
   "dependencies": {
+
     "cassandra-driver": "^4.7.2",
+
+    "dotenv": "^16.3.1",
+
+    "express": "^4.18.2",
+
+    "mongoose": "^7.6.3",
+
     "openai": "^4.12.1",
-    "youtube-captions-scraper-x": "^1.1.1",
-    "youtube-transcript": "^1.0.6"
+
+    "stargate-mongoose": "^0.2.0-ALPHA-8",
+
+    "youtube-transcript": "^1.0.6",
+
+    "ytdl-core": "^4.11.5"
+
   }
+
 }
+

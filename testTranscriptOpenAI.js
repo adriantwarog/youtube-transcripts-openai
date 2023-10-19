@@ -13,7 +13,7 @@ ${transcript}
 
 Answer the following question or questions based on the transcript.
 
-Pretend you are a user, or multiple users having watched this video. Provide comments I might expect from users based on the transcript.`}],
+What might have been missing from this video?`}],
 });
 
 console.log(response.choices[0].message.content);
