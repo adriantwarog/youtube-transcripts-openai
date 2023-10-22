@@ -1,0 +1,254 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://cdn.tailwindcss.com"></script>
+
+	<script>
+
+		var currentData = {}
+
+		function sendMessage() {
+			const urlAddress = document.getElementById("urlAddress").value;
+			const messageContent = document.getElementById("userSendMessage").value;
+			document.getElementById("userSendMessage").value = "";
+			currentData.messages.push({ content: messageContent, role: "user" });
+			updateState(currentData)
+			
+			fetch("/", {
+					method: "POST",
+					headers: {
+						"Content-Type": "application/json",
+					},
+					body: JSON.stringify({
+						urlAddress,
+						messages: currentData.messages,
+					}),
+				})
+				.then((response) => response.json())
+				.then((data) => {
+					updateState(data);
+				})
+				.catch((error) => {
+					console.error("Error:", error);
+				});
+		}
+
+		function getYoutubeByUrl() {
+			const urlAddress = document.getElementById("urlAddress").value;
+			document.getElementById("youtubeTitle").innerHTML = "Loading Video";
+			document.getElementById("messages").classList.add("hidden");
+			document.getElementById("youtubeLoading").classList.add("flex");
+			document.getElementById("youtubeLoading").classList.remove("hidden");
+
+			fetch("/", {
+					method: "POST",
+					headers: {
+						"Content-Type": "application/json",
+					},
+					body: JSON.stringify({
+						urlAddress
+					}),
+				})
+				.then((response) => response.json())
+				.then((data) => {
+					console.log(data);
+					updateState(data);
+				})
+				.catch((error) => {
+					console.error("Error:", error);
+				});
+		}
+
+		function updateState(data) {
+			document.getElementById("youtubeLoading").classList.remove("flex");
+			document.getElementById("youtubeLoading").classList.add("hidden");
+			document.getElementById("youtubeTitle").innerHTML = data.video.title;
+			if(data.video.description){
+				const description = data.video.description.split(' ').slice(0, 22).join(' ');
+				document.getElementById("youtubeDescription").innerHTML = description + (data.video.description.split(' ')
+				.length > 22 ? '...' : '');
+				data.video.description = description
+			}
+			document.getElementById("youtubeThumbnail").src = data.video.thumbnail;
+			document.getElementById("youtubeThumbnail").classList.add("flex");
+			document.getElementById("youtubeThumbnail").classList.remove("hidden");
+			document.getElementById("youtubeAuthor").innerHTML = data.video.author;
+			document.getElementById("messages").classList.remove("hidden");
+			currentData = data
+			renderMessages(data);
+		}
+
+		function systemChatMessage(message, video){
+			return `<div class="chat-message" style="white-space: pre-line">
+				<div class="flex items-end">
+					<div class="flex flex-col space-y-2 	mx-2 order-2 items-start">
+						<div><span
+								class="px-4 py-2 rounded-lg inline-block rounded-bl-none bg-gray-300 text-gray-600">${message.content}</span></div>
+					</div>
+					<img src="${video.author_thumbnail}"
+						alt="My profile" class="w-12 h-12 rounded-full order-1">
+				</div>
+			</div>`
+		}
+
+		function userChatMessage(message, video){
+			return `<div class="chat-message">
+				<div class="flex items-end justify-end">
+					<div class="flex flex-col space-y-2 mx-2 order-1 items-end">
+						<div><span
+								class="px-4 py-2 rounded-lg inline-block rounded-br-none bg-blue-600 text-white ">${message.content}</span></div>
+					</div>
+					<img src="https://images.unsplash.com/photo-1590031905470-a1a1feacbb0b?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=3&amp;w=144&amp;h=144"
+						alt="My profile" class="w-12 h-12 rounded-full order-2">
+				</div>
+			</div>`
+		}
+
+		function renderMessages(data){
+			let htmlMessagesContent = '';
+			for (let i = 2; i < data.messages.length; i++) {
+				const message = data.messages[i];
+				if (message.role === 'user') {
+					htmlMessagesContent += userChatMessage(message, data.video);
+				} else if (message.role === "assistant") {
+					htmlMessagesContent += systemChatMessage(message, data.video);
+				}
+			}
+			document.getElementById("messages").innerHTML = htmlMessagesContent;
+			const messagesDiv = document.getElementById("messages");
+			messagesDiv.scrollTop = messagesDiv.scrollHeight;
+		}
+
+
+	</script>
+
+</head>
+
+<body class="h-screen overflow-hidden flex items-center justify-center" style="background: #edf2f7;">
+
+
+	<div class="flex-1 p:2 sm:p-6 justify-between flex flex-col h-screen">
+
+		<div class="border-t-2 border-gray-200 px-4 pt-4 mb-2 sm:mb-0">
+			<div class="relative flex">
+				<input id="urlAddress" type="text" placeholder="https://youtube.com/?v=123123123"
+					class="w-full focus:outline-none focus:placeholder-gray-400 text-gray-600 placeholder-gray-600 pl-4 bg-gray-200 rounded-md py-3">
+				<div class="absolute right-0 items-center inset-y-0 hidden sm:flex">
+					<button id="searchYoutubeButton" type="button"
+						class="inline-flex items-center justify-center rounded-lg px-9 py-3 transition duration-500 ease-in-out text-white bg-red-500 hover:bg-red-400 focus:outline-none">
+						<span>Search Youtube Video</span>
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+							class="h-6 w-6 ml-2 transform rotate-90">
+							<path
+								d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z">
+							</path>
+						</svg>
+					</button>
+				</div>
+			</div>
+			<div class="flex sm:items-center justify-between py-3 border-b-2 border-gray-200">
+				<div class="relative flex items-center space-x-4">
+					<img src="" id="youtubeThumbnail" alt=""
+						class="hidden w-32 sm:w-48 h-22 sm:h-28 flex-1 rounded-md">
+					<div id="youtubeLoading" role="status"
+						class="hidden space-y-8 animate-pulse md:space-y-0 md:space-x-8 md:items-center">
+						<div
+							class="w-32 sm:w-48 h-22 sm:h-28 flex items-center justify-center bg-gray-300 rounded dark:bg-gray-300">
+							<svg class="w-10 h-10 text-gray-200 dark:text-gray-600" aria-hidden="true"
+								xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 18">
+								<path
+									d="M18 0H2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2Zm-5.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm4.376 10.481A1 1 0 0 1 16 15H4a1 1 0 0 1-.895-1.447l3.5-7A1 1 0 0 1 7.468 6a.965.965 0 0 1 .9.5l2.775 4.757 1.546-1.887a1 1 0 0 1 1.618.1l2.541 4a1 1 0 0 1 .028 1.011Z" />
+							</svg>
+						</div>
+					</div>
+					<div class="flex flex-col leading-tight">
+						<div class="text-2xl mt-1 flex items-center">
+							<span class="text-gray-700 mr-3" id="youtubeTitle">Please enter a Youtube URL</span>
+						</div>
+						<span class="text-lg text-gray-700 mr-3" id="youtubeAuthor"></span>
+						<span class=" text-gray-600" id="youtubeDescription"></span>
+					</div>
+					</img>
+				</div>
+			</div>
+		</div>
+
+		<!-- hidden -->
+		<div id="messages"
+			class="hidden flex-1 flex-col space-y-4 p-3 overflow-y-auto scrollbar-thumb-blue scrollbar-thumb-rounded scrollbar-track-blue-lighter scrollbar-w-2 scrolling-touch">
+			
+		</div>
+		<!-- hidden -->
+		<div class="  border-t-2 border-gray-200 px-4 pt-4 mb-2 sm:mb-0">
+			<div class="relative flex">
+				<input id="userSendMessage" type="text" placeholder="Write your message!"
+					class="w-full focus:outline-none focus:placeholder-gray-400 text-gray-600 placeholder-gray-600 pl-4 bg-gray-200 rounded-md py-3">
+				<div class="absolute right-0 items-center inset-y-0 hidden sm:flex">
+					<button  id="userSendButton" type="button"
+						class="inline-flex items-center justify-center rounded-lg px-9 py-3 transition duration-500 ease-in-out text-white bg-blue-500 hover:bg-blue-400 focus:outline-none">
+						<span>Send</span>
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+							class="h-6 w-6 ml-2 transform rotate-90">
+							<path
+								d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z">
+							</path>
+						</svg>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<style>
+		.scrollbar-w-2::-webkit-scrollbar {
+			width: 0.25rem;
+			height: 0.25rem;
+		}
+
+		.scrollbar-track-blue-lighter::-webkit-scrollbar-track {
+			--bg-opacity: 1;
+			background-color: #f7fafc;
+			background-color: rgba(247, 250, 252, var(--bg-opacity));
+		}
+
+		.scrollbar-thumb-blue::-webkit-scrollbar-thumb {
+			--bg-opacity: 1;
+			background-color: #edf2f7;
+			background-color: rgba(237, 242, 247, var(--bg-opacity));
+		}
+
+		.scrollbar-thumb-rounded::-webkit-scrollbar-thumb {
+			border-radius: 0.25rem;
+		}
+	</style>
+
+	<script>
+		const el = document.getElementById('messages')
+		el.scrollTop = el.scrollHeight
+
+		document.getElementById("urlAddress").addEventListener("keyup", function (event) {
+			if (event.key === "Enter") {
+				getYoutubeByUrl();
+			}
+		});
+
+		document.getElementById("searchYoutubeButton").addEventListener("click", function () {
+			getYoutubeByUrl();
+		});
+
+		document.getElementById("userSendMessage").addEventListener("keyup", function (event) {
+			if (event.key === "Enter") {
+				sendMessage();
+			}
+		});
+
+		document.getElementById("userSendButton").addEventListener("click", function () {
+			sendMessage();
+		});
+	</script>
+</body>
+
+</html>

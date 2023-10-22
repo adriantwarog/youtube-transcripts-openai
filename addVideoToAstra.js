@@ -10,6 +10,7 @@ const addVideoToAstra = async (url) => {
 		const Video = mongoose.model("Video");
   
 		const videoUrl = url
+		console.log(`videoUrl`, videoUrl)
 		const existingVideo = await Video.findOne({ url: videoUrl });
   
 		if (existingVideo) {
@@ -25,6 +26,7 @@ const addVideoToAstra = async (url) => {
 		  let videoInfo = await getYoutubeVideoInfo(videoUrl)
 		  let addedVideo = await Video.create({
 			  ...videoInfo,
+			  url: videoUrl,
 			  transcript,
 			  $vector: vector
 		  })
