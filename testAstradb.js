@@ -1,5 +1,5 @@
-import { Client } from "cassandra-driver"
-import credentials from './youtubescripts-token.json' assert { type: "json" }
+const { Client } = require("cassandra-driver") 
+const credentials = require('./youtubescripts-token.json')
 
 async function run() {
   const client = new Client({
